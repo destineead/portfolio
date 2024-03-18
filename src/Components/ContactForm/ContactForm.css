@@ -1,0 +1,38 @@
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+  font-family: inherit;
+  font-size: 100%;
+  color: inherit;
+  border: none;
+  border-radius: 0;
+  display: block;
+  width: 100%;
+  padding: 0.75em 1rem;
+  margin-bottom: 1.5rem;
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.contact-form input:focus,
+.contact-form select:focus,
+.contact-form textarea:focus {
+  background-color: white;
+  outline: thin solid gray;
+}
+
+.contact-form [type="submit"] {
+  cursor: pointer;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+}
+
+.contact-form [type="submit"]:focus {
+  outline: none;
+}
+
+.contact-form select {
+  text-transform: none;
+}
