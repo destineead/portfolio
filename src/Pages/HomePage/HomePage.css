@@ -15,13 +15,24 @@ section {
 
 .home {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  padding: 133.333px 85.333px 133.333px;
+  grid-template-columns: auto 1fr;
   align-items: center;
   justify-content: space-between;
   gap: 32px;
 }
 
+.home > img {
+  max-height: 100%;
+  height: 100vh;
+}
+
+.section-title {
+  padding: 7px;
+}
+
+.home-section-title {
+  margin-bottom: 30px;
+}
 /* SKILLS SECTION */
 
 

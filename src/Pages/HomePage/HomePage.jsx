@@ -1,9 +1,11 @@
 import './HomePage.css'
+import destineeImg from '../../Assets/destinee.jpg'
 
 export default function HomePage() {
   return (
     <>
     <section id="home" className="home">
+      <img src={destineeImg} alt="" />
       <div className="home-section-content-box">
         <div className="home-section-content">
           <p className="section-title">Hi, I'm Destinee</p>
