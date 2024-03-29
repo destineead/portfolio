@@ -2,6 +2,7 @@ import './HomePage.css'
 import destineeImg from '../../Assets/destinee.jpg'
 
 export default function HomePage() {
+
   return (
     <>
     <section id="home" className="home">
@@ -16,7 +17,7 @@ export default function HomePage() {
         </div>
       </div>
     </section>
-    <section className="skills">
+    <section id="skills" className="skills">
       <div className="skill-section-title">
         <p>MY SKILLS</p>
       </div>
@@ -31,13 +32,13 @@ export default function HomePage() {
         <p className="skill-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
       </div>
     </section>
-    <section className="about-me">
+    <section id="about" className="about-me">
       <div className="about-me-title">
         <h1>About Me</h1>
       </div>
       <div className="about-me-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</div>
     </section>
-    <section className="my-portfolio">
+    <section id="portfolio" className="my-portfolio">
       <div className="portfolio-section-title"><p>RECENT PROJECTS</p></div>
       <div className="portfolio-title">Portfolio</div>
       <button id="btn"><a href="https://github.com/destineead">Visit My GitHub</a></button>
