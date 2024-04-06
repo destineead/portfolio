@@ -6,7 +6,9 @@ export default function HomePage() {
   return (
     <>
     <section id="home" className="home">
-      <img src={destineeImg} alt="" />
+      <div className="img-card">
+        <img src={destineeImg} alt="" />
+      </div>
       <div className="home-section-content-box">
         <div className="home-section-content">
           <p className="section-title">Hi, I'm Destinee</p>
@@ -21,15 +23,16 @@ export default function HomePage() {
       <div className="skill-section-title">
         <p>MY SKILLS</p>
       </div>
-      <div className="skill-title"></div>
+      <div className="skill-title">
         <h1>Skills & Proficiencies</h1>
-      <div className="skill-card">
-        <p className="skill-title">Frontend</p>
-        <p className="skill-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
       </div>
       <div className="skill-card">
-        <p className="skill-title">Backend</p>
-        <p className="skill-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p className="card-title">Frontend</p>
+        <p className="card-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+      <div className="skill-card">
+        <p className="card-title">Backend</p>
+        <p className="card-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
       </div>
     </section>
     <section id="about" className="about-me">
