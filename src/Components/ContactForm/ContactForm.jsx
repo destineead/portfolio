@@ -7,7 +7,7 @@ export default function ContactForm() {
       return <p>We'll chat soon!</p>;
   }
   return (
-    <div className="container">
+    <div id="contact" className="container">
       <div className="contact-title">
         <p>Let's Connect</p>
         <h1>Contact Me</h1>
