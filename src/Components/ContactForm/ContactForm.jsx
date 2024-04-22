@@ -7,13 +7,11 @@ export default function ContactForm() {
       return <p>We'll chat soon!</p>;
   }
   return (
-    <div id="contact" className="container">
-      <div className="contact-title">
-        <p>Let's Connect</p>
-        <h1>Contact Me</h1>
-      </div>
+    <div id='contact' className="container">
       <div className="contact-form-container">
         <form onSubmit={handleSubmit} className='contact-form'>
+          <p>Let's Connect</p>
+          <h1>Contact Me</h1>
           <label htmlFor="full-name">Full Name</label>
           <input 
             type="text" 
