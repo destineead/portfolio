@@ -1,0 +1,21 @@
+.about-me-content {
+  justify-content: flex-start;
+}
+
+.about-me-title, .about-me-description {
+  padding-bottom: 2em;
+  margin-right: 10em;
+  max-width: 30vw;
+}
+
+.about-me-img > img {
+  height: 65vh;
+  justify-self: flex-end;
+  aspect-ratio: 1/1;
+}
+
+#about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
