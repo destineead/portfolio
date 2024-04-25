@@ -16,9 +16,9 @@ export default function HomePage() {
         <div className="home-section-content">
           <p className="section-title">Hi, I'm Destinee</p>
           <h1 className="home-section-title">
-            <span>Full Stack Software Developer</span>
+            <span>Full Stack<br /> Software Developer</span>
           </h1>
-          <button id="btn">Contact Me</button>
+          <button id="btn">Let's get in touch!</button>
         </div>
       </div>
     </section>

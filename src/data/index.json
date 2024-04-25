@@ -1,0 +1,22 @@
+{
+  "skills": [
+    {
+      "id": "1",
+      "src": "",
+      "title": "Front-End",
+      "description": "I'm passionate about creating beautiful and intuitive web experiences. With expertise in HTML, CSS, JavaScript, Python and more, I craft applications that not only look stunning but also function seamlessly across devices."
+    },
+    {
+      "id": "2",
+      "src": "",
+      "title": "Back-End",
+      "description": "I excel in building robust backend systems using technologies like Node.js and Express, ensuring seamless data management and API development. My expertise extends to database design, with proficiency in SQL and NoSQL databases, enabling efficient and scalable solutions for complex web applications."
+    },
+    {
+      "id": "3",
+      "src": "",
+      "title": "UI",
+      "description": "I specialize in crafting visually appealing and responsive user interfaces through proficient utilization of CSS, employing techniques such as flexbox, grid layouts, and advanced styling to ensure elegant design and seamless user experiences."
+    }
+  ]
+}

@@ -16,12 +16,12 @@
   border-radius: 10px;
 }
 
-p, h1 {
+.contact-form-p, .contact-form-h1 {
   display: flex;
   justify-content: center;
 } 
 
-h1 {
+.contact-form-h1 {
   padding-bottom: 25px;
 }
 
